@@ -1,0 +1,48 @@
+.DIbody {
+    font-family: "Roboto", sans-serif;
+}
+
+.DIicon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #10648C;
+}
+.DItitle {
+    font-size: 54px;
+    text-align: center;
+    margin-top: 50px;
+}
+.DIsubTitle {
+    font-size: 32px;
+    color: #42C2FF;
+    text-align: center;
+}
+.DIlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.DIlinkTag {
+    text-decoration: none;
+    color: #10648C;
+    font-weight: bold;
+}
+.DIlinks p {
+    font-size: 32px;
+}
+
+.gLogout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.gButton {
+    height: 50px;
+    width: 200px;
+}

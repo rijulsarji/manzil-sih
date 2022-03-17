@@ -1,0 +1,44 @@
+.navbarBody {
+    width: 100vw;
+    position: absolute;
+}
+.navbarLogo {
+    width: 200px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbarRightSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 75px;
+    margin-right: 50px;
+}
+.blindToggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+    font-size: 18px;
+}
+.blindToggle input {
+    width: 25px;
+    height: 25px;
+}
+.navbarLink {
+    margin-top: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 0px;
+}
+.active {
+    color: #42C2FF;
+}

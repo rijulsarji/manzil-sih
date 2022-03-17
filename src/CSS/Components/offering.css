@@ -1,0 +1,42 @@
+.offerBody {
+    width: 100vw;
+    height: 100%;
+    padding-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.offerTitle {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    letter-spacing: 5px;
+    color: #42C2FF;
+    font-size: 56px;
+}
+
+.offerSubBody {
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: 40% 40%;
+    gap: 50px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.offerBox {
+    border: 5px solid #146085;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+}
+.offerBox h1 {
+    text-align: center;
+    font-family: 'Roboto', serif;
+    color: #42C2FF;
+    font-size: 36px;
+}
+.offerBox img {
+    height: 225px;
+}

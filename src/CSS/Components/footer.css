@@ -1,0 +1,23 @@
+.footerImg {
+    width: 100vw;
+    height: 200px;
+    background-image: url("../../assets/Footer.png");
+    background-repeat: repeat-x;
+}
+
+.footerSubBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.footerSubBody {
+    font-size: 20px;
+}
+.footerLinks a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #42C2FF;
+}

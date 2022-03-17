@@ -1,0 +1,30 @@
+.welcomeBody {
+    width: 100vw;
+    height: 100%;
+    padding-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.welcomeSubBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.welcomeLS {
+    width: 40%;
+}
+.welcomeLS h1 {
+    color: #42C2FF;
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-family: 'Special Elite', cursive;
+}
+
+.welcomeRS {
+    width: 30%;
+}
+.welcomeRS img {
+    width: 550px;
+}

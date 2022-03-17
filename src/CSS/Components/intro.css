@@ -1,0 +1,19 @@
+.introBody {
+    height: 100vh;
+    width: 100vw;
+}
+.introSubBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.introSubBody img {
+    margin-right: 50px;
+    width: 30%;
+}
+.introLS {
+    margin-left: 150px;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+}

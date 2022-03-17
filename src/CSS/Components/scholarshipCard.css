@@ -1,0 +1,29 @@
+.SCbody {
+    width: 100%;
+    box-shadow: 5px 5px 5px #10648C;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+}
+.SCbody img {
+    position: absolute;
+    width: 80px;
+    top: -25px;
+    left: -25px;
+}
+.SCbody h1 {
+    padding-top: 20px;
+}
+.SCbody p {
+    font-size: 18px;
+}
+.SCbody span {
+    color: #42C2FF;
+    font-weight: bold;
+}
