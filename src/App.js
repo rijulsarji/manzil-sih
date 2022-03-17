@@ -10,10 +10,6 @@ import InsertScholarships from "./InsertData/insertScholarships";
 // pages
 import LandingPage from "./Pages/landingPage";
 import DataInput from "./Pages/dataInput";
-import Home from "./Pages/home";
-import Scholarships from "./Pages/scholarships";
-import Navbar from "./Components/navbar";
-import Jobs from "./Pages/jobs";
 import User from "./User";
 
 function App() {
