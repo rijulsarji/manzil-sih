@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import { GoogleLogin, GoogleLogout } from "react-google-login";
+import React from "react";
+import { GoogleLogin } from "react-google-login";
 import { useNavigate } from "react-router-dom";
 import "../CSS/Components/GLogin.css";
-import Home from "../Pages/home";
 
 const clientId =
   "416912370993-k9ndtur6gle4gj1iq1p7okabbjn8g8ah.apps.googleusercontent.com";

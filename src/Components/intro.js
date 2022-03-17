@@ -25,7 +25,7 @@ function Intro() {
   useEffect(() => {
     if (audioInView && blind) setPlay(true);
     else setPlay(false);
-  }, [audioInView]);
+  }, [audioInView, blind]);
 
   return (
     <div className="introBody" ref={audioRef}>

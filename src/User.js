@@ -36,7 +36,7 @@ function User() {
       recognition.stop();
       setCount(0);
     }
-  }, [sessVar]);
+  }, [sessVar, blind]);
 
   recognition.onend = () => {
     if (count === 1) recognition.start();

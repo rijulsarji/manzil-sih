@@ -1,8 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import { GoogleLogin, GoogleLogout } from "react-google-login";
+import { GoogleLogout } from "react-google-login";
 import {useNavigate} from "react-router-dom";
-import {FaArrowLeft, FaLeftArrow} from "react-icons/fa";
+import {FaArrowLeft} from "react-icons/fa";
 import "../CSS/Pages/dataInput.css";
 
 function DataInput() {

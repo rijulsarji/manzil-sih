@@ -24,7 +24,7 @@ function Welcome() {
   useEffect(() => {
     if (audioInView && blind) setPlay(true);
     else setPlay(false);
-  }, [audioInView]);
+  }, [audioInView, blind]);
 
   return (
     <div className="welcomeBody">
@@ -44,7 +44,7 @@ function Welcome() {
         </div>
 
         <div className="welcomeRS">
-          <img src={welcomeImg} alt="welcome image" />
+          <img src={welcomeImg} alt="welcome" />
         </div>
       </div>
     </div>
