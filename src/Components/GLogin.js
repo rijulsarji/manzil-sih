@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "../CSS/Components/GLogin.css";
 
 const clientId =
-  "416912370993-k9ndtur6gle4gj1iq1p7okabbjn8g8ah.apps.googleusercontent.com";
+  "416912370993-gc39fictntnm2oj6j073tpo6c1it87ki.apps.googleusercontent.com";
 
 function Login() {
 
