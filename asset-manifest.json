@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/manzil-sih/static/css/main.df99f6de.css",
+    "main.js": "/manzil-sih/static/js/main.1c39d4b5.js",
+    "static/js/787.ed2e7cb9.chunk.js": "/manzil-sih/static/js/787.ed2e7cb9.chunk.js",
+    "static/media/landingVideo.gif": "/manzil-sih/static/media/landingVideo.e4234fda49b9a73c0427.gif",
+    "static/media/welcomeManzil.aac": "/manzil-sih/static/media/welcomeManzil.78b4aeee5b771344fe23.aac",
+    "static/media/welcomeImg.png": "/manzil-sih/static/media/welcomeImg.9ddf53862292a2186e8f.png",
+    "static/media/bgImg.png": "/manzil-sih/static/media/bgImg.8d12f6ceab1f65d81ba1.png",
+    "static/media/introManzil.aac": "/manzil-sih/static/media/introManzil.70a157c8de1766b35779.aac",
+    "static/media/landingPage.png": "/manzil-sih/static/media/landingPage.b9c68fa51906a30a14e5.png",
+    "static/media/Footer.png": "/manzil-sih/static/media/Footer.0eef730e0f17829e6429.png",
+    "static/media/ngo.png": "/manzil-sih/static/media/ngo.5ef824620efb2bede884.png",
+    "static/media/Logo.png": "/manzil-sih/static/media/Logo.3446944183cbcabc6b98.png",
+    "static/media/job.png": "/manzil-sih/static/media/job.45206363b722bd3e19f4.png",
+    "static/media/course.png": "/manzil-sih/static/media/course.e877826025d898daef27.png",
+    "static/media/scholarship.png": "/manzil-sih/static/media/scholarship.2574f1774a5ee2f0204e.png",
+    "index.html": "/manzil-sih/index.html",
+    "main.df99f6de.css.map": "/manzil-sih/static/css/main.df99f6de.css.map",
+    "main.1c39d4b5.js.map": "/manzil-sih/static/js/main.1c39d4b5.js.map",
+    "787.ed2e7cb9.chunk.js.map": "/manzil-sih/static/js/787.ed2e7cb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df99f6de.css",
+    "static/js/main.1c39d4b5.js"
+  ]
+}
