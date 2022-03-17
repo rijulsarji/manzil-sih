@@ -11,6 +11,7 @@ import InsertScholarships from "./InsertData/insertScholarships";
 import LandingPage from "./Pages/landingPage";
 import DataInput from "./Pages/dataInput";
 import User from "./User";
+import Sarthak from "./sarthak";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/api/scholarships" element={<InsertScholarships />} />
         <Route path="/api/NGOs" element={<InsertNGOs />} />
         <Route path="/api/products" element={<InsertProducts />} />
+        <Route path="/api/sarthak" element={<Sarthak />} />
       </Routes>
     </div>
   );

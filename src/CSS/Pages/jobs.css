@@ -1,10 +1,8 @@
 .jobBody {
     min-height: 100vh;
-    width: 100%;
+    max-width: 100vw;
     /* height: 100%; */
     background-image: url("../../assets/Landing Page/bgImg.png");
-    background-position: center;
-    background-size: contain;
     background-repeat: repeat-y;
     overflow-x: hidden;
     padding-bottom: 50px;
@@ -12,13 +10,19 @@
 
 .jobTitle {
     text-align: center;
-    margin-top: 100px;
+    padding-top: 150px;
     font-size: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #42C2FF;
+}
+.jobTitle h1 {
+    font-size: 56px;
+    color: #42C2FF;
+    font-family: 'Special Elite', cursive;
+    letter-spacing: 2px;
 }
 .jobTitle p {
     margin-top: -10px;
@@ -39,6 +43,7 @@
     padding: 15px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #10648C;
+    background-color: white;
 }
 .jobSearch input {
     border-width: 0px;

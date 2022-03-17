@@ -1,0 +1,50 @@
+.SRbody {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Poppins", sans-serif;
+    background-image: url("../../assets/Landing Page/bgImg.png");
+    background-repeat: repeat-y;
+}
+.SRsubBody {
+    padding-top: 150px;
+}
+.SRsubBody h4 {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.SRsubBody h1 {
+    font-size: 56px;
+    color: #42C2FF;
+    font-family: 'Special Elite', cursive;
+    letter-spacing: 2px;    
+    color: #10648C;
+    text-align: center;
+}
+.SRsubBody h3 {
+    text-align: center;
+}
+
+.SRgrid {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    gap: 100px;
+}
+.SRgridHead {
+    font-size: 20px;
+    font-weight: bold;
+}
+.SRgrid a {
+    background-color: #10648C;
+    width: fit-content;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}

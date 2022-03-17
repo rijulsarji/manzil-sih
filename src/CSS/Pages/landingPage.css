@@ -3,10 +3,7 @@
     height: 100vh;
     background-color: #EEEEEE;
     background-image: url("../../assets/Landing Page/bgImg.png");
-    background-position: left;
-    background-size: contain;
     background-repeat: repeat-y;
-    background-repeat: repeat-x;
 }
 
 .LPlogo {
