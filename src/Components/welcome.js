@@ -24,7 +24,7 @@ function Welcome() {
   useEffect(() => {
     if (audioInView && blind) setPlay(true);
     else setPlay(false);
-  }, [audioInView, blind]);
+  }, [audioInView]);
 
   return (
     <div className="welcomeBody">
