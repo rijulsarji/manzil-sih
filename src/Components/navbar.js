@@ -11,7 +11,7 @@ function Navbar() {
     window.sessionStorage.setItem("blind", toggle);
     if (toggle)
       window.alert(
-        "This feature is for the visually impaired to assist them in using the websites.\nWebsite content can now be heard as you scroll on the home page. Along with this feature, the person can speak for navigating through the website.\nThe following commands are available:\nNavigate to/Go to Home page\nNavigate to/Go to Jobs page\nNavigate to/Go to Scholarships page\nNavigate to/Go to Heroes page"
+        "This feature is for the visually impaired to assist them in using the websites.\nWebsite content can now be heard as you scroll on the home page. Along with this feature, the person can speak for navigating through the website.\nThe following commands are available:\nNavigate to/Go to Home page\nNavigate to/Go to Jobs page\nNavigate to/Go to Scholarships page\nNavigate to/Go to NGO page"
       );
   }, [toggle]);
 

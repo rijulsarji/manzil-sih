@@ -36,6 +36,7 @@ function User() {
       recognition.stop();
       setCount(0);
     }
+    // eslint-disable-next-line
   }, [sessVar]);
 
   recognition.onend = () => {

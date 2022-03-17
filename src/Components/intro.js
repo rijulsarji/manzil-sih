@@ -18,13 +18,14 @@ function Intro() {
     if (sessVar === "true") setBlind(true);
     else setBlind(false);
   }, [sessVar]);
-
+  
   const { ref: audioRef, inView: audioInView } = useInView();
   const [play, setPlay] = useState(false);
-
+  
   useEffect(() => {
     if (audioInView && blind) setPlay(true);
     else setPlay(false);
+    // eslint-disable-next-line
   }, [audioInView]);
 
   return (

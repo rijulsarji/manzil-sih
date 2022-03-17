@@ -24,6 +24,7 @@ function Welcome() {
   useEffect(() => {
     if (audioInView && blind) setPlay(true);
     else setPlay(false);
+    // eslint-disable-next-line
   }, [audioInView]);
 
   return (
