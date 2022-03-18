@@ -1,0 +1,10 @@
+.swiperSlide {
+    width: 50%;
+}
+.swiperDiv {
+    height: 50%;
+    width: 50%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}

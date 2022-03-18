@@ -21,6 +21,9 @@
     letter-spacing: 2px;
     font-family: 'Special Elite', cursive;
 }
+.welcomeLS p {
+    font-size: 20px;
+}
 
 .welcomeRS {
     width: 30%;

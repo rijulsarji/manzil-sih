@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NGOcarousel from "../Components/ngoCarousel";
 import "../CSS/Pages/ngos.css"
 
 function NGOs() {
@@ -21,6 +22,8 @@ function NGOs() {
           <h1>NGOs</h1>
           <p>Hello world</p>
         </div>
+
+        <NGOcarousel />
 
         {/* <div className="ngoCarousel"></div> */}
 
