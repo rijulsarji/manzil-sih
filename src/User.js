@@ -55,7 +55,7 @@ function User() {
       if (command.includes("jobs")) navigate("/user/jobs");
       if (command.includes("scholarships")) navigate("/user/scholarships");
       if (command.includes("courses")) navigate("/user/courses");
-      if (command.includes("ngos")) navigate("/user/ngos");
+      if (command.includes("products")) navigate("/user/products");
       if (command.includes("screen readers")) navigate("/user/screenReaders");
     }
     if (command.includes("stop")) {
@@ -71,9 +71,9 @@ function User() {
         <Route path="/" element={<Home />} />
         <Route path="/scholarships" element={<Scholarships />} />
         <Route path="/jobs" element={<Jobs />} />
-        <Route path="/screenReader" element={<ScreenReader />} />
+        <Route path="/screenReaders" element={<ScreenReader />} />
         <Route path="/courses" element={<Courses />} />
-        <Route path="/ngos" element={<NGOs />} />
+        <Route path="/products" element={<NGOs />} />
       </Routes>
     </div>
   );

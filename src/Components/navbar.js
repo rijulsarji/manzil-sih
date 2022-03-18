@@ -29,8 +29,8 @@ function Navbar() {
         <NavLink className="navbarLink" to="/user/scholarships" activeClassName="active">Scholarships</NavLink>
         <NavLink className="navbarLink" to="/user/courses" activeClassName="active">Courses</NavLink>
         <NavLink className="navbarLink" to="/user/jobs" activeClassName="active">Jobs</NavLink>
-        <NavLink className="navbarLink" to="/user/ngos" activeClassName="active">NGOs</NavLink>
-        <NavLink className="navbarLink" to="/user/screenReader" activeClassName="active">Screen Readers</NavLink>
+        <NavLink className="navbarLink" to="/user/products" activeClassName="active">Products</NavLink>
+        <NavLink className="navbarLink" to="/user/screenReaders" activeClassName="active">Screen Readers</NavLink>
       </div>
     </div>
   )
