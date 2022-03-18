@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../CSS/Pages/screenReader.css";
+import {AiOutlineLoading3Quarters} from "react-icons/ai"
 
 function ScreenReader() {
 
@@ -18,11 +19,15 @@ function ScreenReader() {
       <div className="SRsubBody">
         <h1>Screen Reader Access</h1>
         <h3>
-          Kya tum voh dekh sakte ho? Me toh dekh sakta hu. Lmao dikh nahi raha?
+          This was the rocket to your dreams, fuel it up by using the
+          below-mentioned software to access any site easily and get the most
+          out of them.
         </h3>
 
         {load ? (
-          <h4>Loading...</h4>
+          <div className="loading">
+            <AiOutlineLoading3Quarters />
+          </div>
         ) : (
           <div>
             <div className="SRgrid">
@@ -35,7 +40,9 @@ function ScreenReader() {
                 <div className="SRgrid">
                   <p>{oneData.appName}</p>
                   <p>{oneData.type}</p>
-                  <a href={oneData.link} target="_blank" rel="noreferrer">Visit</a>
+                  <a href={oneData.link} target="_blank" rel="noreferrer">
+                    Visit
+                  </a>
                 </div>
               ))}
             </div>

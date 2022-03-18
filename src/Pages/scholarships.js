@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ScholarshipCard from "../Components/scholarshipCard";
 import "../CSS/Pages/scholarships.css";
 import {FaSearch} from "react-icons/fa";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 function Scholarships() {
 
@@ -42,7 +43,9 @@ function Scholarships() {
 
         {/* <div className="scholarshipGridBody"> */}
         {load ? (
-          <h3>loading...</h3>
+          <div className="loading">
+            <AiOutlineLoading3Quarters />
+          </div>
         ) : (
           <div className="scholarshipGrid">
             {data

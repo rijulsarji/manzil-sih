@@ -4,7 +4,22 @@
 .swiperDiv {
     height: 50%;
     width: 50%;
-    background-color: gray;
+    background-color: white;
+    padding: 25px;
     margin-left: auto;
     margin-right: auto;
+}
+.loading {
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotation 1s ease-in-out infinite;
+}
+@keyframes rotation {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
 }

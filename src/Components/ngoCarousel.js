@@ -3,6 +3,8 @@ import "../CSS/Components/ngoCarousel.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import {AiOutlineLoading3Quarters} from "react-icons/ai"
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -16,7 +18,7 @@ function NGOcarousel() {
   const [data, setData] = useState([]);
   const [load, setLoad] = useState(true);
 
-  fetch("https://project-manzil.herokuapp.com/api/products")
+  fetch("https://project-manzil.herokuapp.com/api/NGO")
     .then((response) => response.json())
     .then((data) => {
       setData(data);
@@ -26,16 +28,16 @@ function NGOcarousel() {
   return (
     <div className="NCbody">
       <div className="NCswiper">
-        {load ? <h2>Loading...</h2> : 
+        {load ? <div className="loading"><AiOutlineLoading3Quarters/></div> : 
         <Swiper
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"auto"}
         coverflowEffect={{
-          rotate: 1,
+          rotate: 10,
           stretch: 0,
-          depth: 200,
+          depth: 500,
           modifier: 3,
           slideShadows: true,
         }}
@@ -46,8 +48,8 @@ function NGOcarousel() {
       >
         {data.map((oneData) => <SwiperSlide className="swiperSlide">
           <div className="swiperDiv">
-            <h2>Hello</h2>
-            <h4>{oneData.productName}</h4> 
+            <h2>{oneData.NGOName}</h2>
+            <p>{oneData.salary}</p> 
           </div>
         </SwiperSlide>)}
       </Swiper>

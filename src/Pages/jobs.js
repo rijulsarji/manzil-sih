@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import JobCard from "../Components/jobCard";
 import "../CSS/Pages/jobs.css";
 import { FaSearch } from "react-icons/fa";
+import {AiOutlineLoading3Quarters} from "react-icons/ai"
 
 function Jobs() {
   const [data, setData] = useState([]);
@@ -43,7 +44,9 @@ function Jobs() {
 
         {/* <div className="jobGridBody"> */}
         {load ? (
-          <h3>loading...</h3>
+          <div className="loading">
+            <AiOutlineLoading3Quarters />
+          </div>
         ) : (
           <div className="jobGrid">
             {data

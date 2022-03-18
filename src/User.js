@@ -55,7 +55,7 @@ function User() {
       if (command.includes("jobs")) navigate("/user/jobs");
       if (command.includes("scholarships")) navigate("/user/scholarships");
       if (command.includes("courses")) navigate("/user/courses");
-      if (command.includes("products")) navigate("/user/products");
+      if (command.includes("Products")) navigate("/user/products");
       if (command.includes("screen readers")) navigate("/user/screenReaders");
     }
     if (command.includes("stop")) {

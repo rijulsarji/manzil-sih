@@ -32,13 +32,13 @@ function Welcome() {
       <ReactHowler playing={play} src={[welcomeManzil]} />
       <div className="welcomeSubBody">
         <div className="welcomeLS">
-          <h1 ref={audioRef}>Welcome</h1>
+          <h1>Welcome</h1>
           <p>
             Manzil is a one stop platform which acts like the torch bearer in
             the path of success for all the specially abled friends. With the
             help of technology our portal is connecting the specially abled ones
             directly to all the opportunities available to them.
-            <br />
+            <br ref={audioRef}/>
             Bringing a smile on the face and pride in the eyes of every
             specially-abled individual is the mission and vision of Manzil.
           </p>
